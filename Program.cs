@@ -8,6 +8,8 @@ builder.Services.AddRazorComponents()
 
 var app = builder.Build();
 
+app.UsePathBase("/blazor/");
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -25,3 +27,5 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
+
+
