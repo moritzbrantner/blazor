@@ -1,0 +1,9 @@
+schema_version = 1
+id = "moritzbrantner/blazor"
+kind = "app"
+status = "maintenance"
+summary = "Small Blazor application retained as a .NET web reference and maintenance sample."
+depends_on = []
+consumed_by = []
+supersedes = []
+replaced_by = []
